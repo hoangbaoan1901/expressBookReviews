@@ -31,3 +31,5 @@ async function getBooksOnTitle(title) {
     console.log(books.data);
 }
 
+getBooks();
+getBooksOnAuthor("Unknown");
